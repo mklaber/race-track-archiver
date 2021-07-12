@@ -1,0 +1,15 @@
+{
+  "name": "race-track-archiver",
+  "version": "1.0.0",
+  "description": "Grab the results of a YB race and store it as a JSON file",
+  "bin": {
+    "race-tracker-archiver": "./index.js"
+  },
+  "main": "index.js",
+  "author": "Matt Klaber",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "repository": "github:mklaber/race-track-archiver"
+}
