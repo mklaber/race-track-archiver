@@ -9,7 +9,9 @@
   "author": "Matt Klaber",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "gpx-builder": "^3.7.6",
+    "node-fetch": "^2.6.1",
+    "xmlbuilder": "^15.1.1"
   },
   "repository": "github:mklaber/race-track-archiver"
 }
