@@ -1,6 +1,6 @@
 {
   "name": "race-track-archiver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Grab the results of a YB race and store it as a JSON file",
   "bin": {
     "race-tracker-archiver": "./index.js"

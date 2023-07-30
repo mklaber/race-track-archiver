@@ -5,12 +5,7 @@ const { Point, Track, Segment } = BaseBuilder.MODELS;
 function momentToPoint(m) {
     return new Point(m.lat, m.lon, { 
         time: new Date(m.at * 1000),
-        ele: 1,
-        extensions: {
-            navionics_speed: 5,
-            navionics_haccuracy: 7,
-            navionics_vaccuracy: 7
-        }
+        ele: 1
     });
 }
 
@@ -66,7 +61,7 @@ function getTrackByBoat(race, boat) {
         // gpxData.setMetadata(new Metadata({link: "http://www.navionics.com"}))
 
         console.log(`First Time: ${firstMoment.toISOString()}`)
-        console.log(`Latests Time: ${latestMoment.toISOString()}`)
+        console.log(`Latest Time: ${latestMoment.toISOString()}`)
 
         gpxData.setTracks([track])
 
