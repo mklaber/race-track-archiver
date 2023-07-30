@@ -32,7 +32,7 @@ It'll write a JSON file with all the details of a race.
 
 ### Filtering
 
-Let's say you want to get a CSV of retirements. You can do this with the [jq](https://stedolan.github.io/jq/download/) utility. Install it, then:
+Let's say you want to get a CSV of retirements. You can do this with the [jq](https://stedolan.github.io/jq/download/) utility and `npm install -g @json2csv/cli`. Install it, then:
 
 ```bash
 $ npm i -g json2csv
